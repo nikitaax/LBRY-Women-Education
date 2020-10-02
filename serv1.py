@@ -50,9 +50,10 @@ def sel_file():
       <p><input type=submit value=Upload>
     </form>
     '''
-
+#hactoberfest edit 
 @app.route('/load/<stat>', methods=['GET', 'POST'])
 def load_file(stat):
+    # start loading
     url = []
     stat = int(stat)
     print(stat)
